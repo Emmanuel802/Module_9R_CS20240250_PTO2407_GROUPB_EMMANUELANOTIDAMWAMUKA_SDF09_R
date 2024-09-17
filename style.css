@@ -1,31 +1,31 @@
 /* BASE STYLES */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("img/table.png");
-    background-size: cover;
-    font-weight: bold;
-    color: white;
-    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif; /* Sets font family with fallbacks */
+    background-image: url("img/table.png"); /* Sets background image */
+    background-size: cover; /* Ensures background image covers the entire element */
+    font-weight: bold; /* Sets font weight to bold */
+    color: white; /* Sets text color to white */
+    text-align: center; /* Centers text alignment */
 }
 
 h1 {
-    color: goldenrod;
+    color: goldenrod; /* Sets text color of h1 to goldenrod */
 }
 
 #message-el {
-    font-style: italic;
+    font-style: italic; /* Sets font style of #message-el to italic */
 }
 
 /* BUTTONS */
 button {
-    color: #016f32;
-    width: 150px;
-    background: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    color: #016f32; /* Sets text color of buttons to a dark green */
+    width: 150px; /* Sets button width */
+    background: goldenrod; /* Sets button background color to goldenrod */
+    padding-top: 5px; /* Sets top padding of button */
+    padding-bottom: 5px; /* Sets bottom padding of button */
+    font-weight: bold; /* Sets font weight of button text to bold */
+    border: none; /* Removes button border */
+    border-radius: 2px; /* Sets button border radius to create slightly rounded corners */
+    margin-bottom: 2px; /* Sets bottom margin of button */
+    margin-top: 2px; /* Sets top margin of button */
 }
